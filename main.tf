@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "meu_bucket" {
   tags = {
     Owner = "Ernandes"
     Project = "terraform"
-    Dev = "Ernandes-Silva"
+    Dev = "Ernandes"
 
   }
 }
