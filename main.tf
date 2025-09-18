@@ -4,11 +4,11 @@ provider "aws" {
 
 resource "aws_s3_bucket" "meu_bucket" {
   bucket = "ernandes-tf-bucket-123456"
-  
+
   tags = {
-    Owner = "Ernandes"
+    Owner   = "Ernandes"
     Project = "terraform"
-    Dev = "Ernandes"
+    Dev     = "Ernandes"
 
   }
 }
